@@ -1,0 +1,114 @@
+/* Body and Overall Page Style */
+body {
+    background-color: #f8f9fa;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #343a40;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Headers Style */
+h1, h2, h3 {
+    color: #495057;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 0.75em;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.75em;
+}
+
+/* Paragraph and Text Styling */
+p {
+    line-height: 1.6;
+    margin-bottom: 1.2em;
+}
+
+/* Links */
+a {
+    color: #007bff;
+    text-decoration: none;
+    border-bottom: 1px dotted #007bff;
+}
+
+a:hover {
+    color: #0056b3;
+    border-bottom: 1px solid #0056b3;
+}
+
+/* Lists */
+ul {
+    padding-left: 20px;
+    margin-bottom: 1.2em;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Code Blocks */
+code {
+    background-color: #e9ecef;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 2em;
+}
+
+/* HR Styling */
+hr {
+    border: 0;
+    height: 1px;
+    background: #e9ecef;
+    margin: 2em 0;
+}
+
+/* Tips and Resources Section */
+#tips-resources {
+    background-color: #f1f3f5;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#tips-resources h2 {
+    color: #343a40;
+    font-size: 2em;
+}
+
+#tips-resources h3 {
+    color: #495057;
+}
+
+#tips-resources ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+#tips-resources ul ul {
+    list-style-type: circle;
+    padding-left: 20px;
+}
